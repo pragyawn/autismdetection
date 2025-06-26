@@ -1,1 +1,85 @@
+🧠 Autism Detection Using Machine Learning
+This project uses Machine Learning techniques to detect Autism Spectrum Disorder (ASD) based on behavioral and demographic data. With increasing awareness around early intervention, this tool aims to support faster, scalable, and accessible screening solutions.
+
+📌 Overview
+Autism Spectrum Disorder (ASD) affects communication and behavior and is often underdiagnosed, especially in young children and underserved communities. Using a labeled dataset and multiple classification algorithms, this project classifies individuals as likely autistic or not based on answers to screening questions and basic demographic inputs.
+
+🧬 Dataset
+The dataset contains:
+
+Responses to A1–A10 screening questions
+
+Demographic attributes like age, gender, ethnicity, and relation
+
+Class labels (autistic/not)
+
+Additional fields such as sum_score and a derived binary indicator (ind)
+
+The dataset has been cleaned, encoded, and balanced to ensure fair model performance across different subgroups.
+
+🔧 Features & Techniques
+Preprocessing: Label encoding, null handling, and feature derivation (sum_score)
+
+Class Balancing: Handled data imbalance using oversampling
+
+Models Used:
+
+Logistic Regression
+
+Support Vector Machine (SVM)
+
+XGBoost Classifier
+
+Evaluation Metrics: Accuracy, precision, recall, F1-score
+
+🚀 Real-World Applications
+✅ Mobile Screening Apps — Integrated ASD screening in early childhood apps
+✅ Clinics and Schools — Tools for counselors or teachers to flag at-risk students
+✅ HealthTech Startups — As a backend ML service for diagnostic platforms
+✅ Public Health Research — Useful for epidemiological studies across regions
+
+By digitizing early screening and reducing manual diagnosis dependency, this model supports faster intervention — critical for better developmental outcomes. 💡
+
+📈 Results
+All models showed reliable performance with balanced datasets. XGBoost gave the highest accuracy and recall. Visualizations (confusion matrix, bar plots) are included in the notebook.
+
+🛠 Tools Used
+Python
+
+Jupyter Notebook
+
+Pandas, NumPy
+
+Scikit-learn
+
+XGBoost
+
+Matplotlib, Seaborn
+
+📂 Repository Structure
+bash
+Copy
+Edit
+📁 autismdetection/
+ ├── autism.ipynb         # Main notebook
+ ├── README.md            # Project documentation
+ 
+💡 Future Work
+Add support for live prediction via Streamlit or Flask
+
+Collect more diverse and larger-scale data
+
+Experiment with deep learning models for nonlinear patterns
+
+🤝 Contributing
+Contributions are welcome! Feel free to:
+
+Submit pull requests 🛠️
+
+Open issues for suggestions or improvements 💬
+
+Fork and expand the dataset or model scope 🚀
+
+Made with ❤️ by @pragyawn
+
 
